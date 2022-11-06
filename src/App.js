@@ -1,11 +1,14 @@
 import './App.css';
 import MyportfolioDetails from './components/MyPortfolioDetails';
+import MyHomePage from './components/MyHomePage';
+
 
 function App() {
   return (
-    <div className="App">
+    <body className="App">
       <MyportfolioDetails/>
-    </div>
+      <MyHomePage/>
+    </body>
   );
 }
 
