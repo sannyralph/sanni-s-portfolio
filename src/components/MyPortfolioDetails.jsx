@@ -16,7 +16,7 @@ const MyportfolioDetails = () => {
             <header id='header'>
             <div className='d-flex flex-column'>
                 <div className='profile'>
-                    <img src={img} alt="" className="img-fluid rounded-circle" />
+                    <img src={img} alt="" id='nav-img' className="img-fluid rounded-circle" />
                     <h1 className="text-light"><a href="index.html">Sanni Abdul Rafiu</a></h1>
                     <div className="social-links mt-3 text-center">
                     <a href="https://twitter.com/_ralphsanny" className="twitter" target='_blank' rel="noreferrer"> <FontAwesomeIcon icon={faTwitter}/></a>

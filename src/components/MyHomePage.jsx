@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter"
 const MyHomePage = () => {
     return (
 
-        <section id="home" className="home d-flex flex-column justify-content-center align-items-center">
+        <section className=" home d-flex flex-column justify-content-center align-items-center">
             <div className="home-container" data-aos="fade-in">
             <h1>Sanni Abdul Rafiu</h1>
             <p><span className="typed">
@@ -15,7 +15,7 @@ const MyHomePage = () => {
                         typeSpeed={70}
                         deleteSpeed={50}
                         delaySpeed={1000}
-                        words={["I'm a Software Engineer", "I'm a React Developer", "I'm a Finance Analyst","I'm a Football & Music lover", "Most importantly I'm Human!!! therefore, I also make mistakes"]}
+                        words={["I'm a Software Engineer", "I'm a React Developer", "I'm a Financial Analyst","I'm a Football & Music lover", "Most importantly I'm Human therefore, I also make mistakes"]}
                     ></Typewriter>
                     </span></p>
             </div>

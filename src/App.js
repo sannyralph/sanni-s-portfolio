@@ -1,6 +1,7 @@
 import './App.css';
 import MyportfolioDetails from './components/MyPortfolioDetails';
 import MyHomePage from './components/MyHomePage';
+import MyAboutPage from './components/MyAboutPage';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <body className="App">
       <MyportfolioDetails/>
       <MyHomePage/>
+      <MyAboutPage/>
     </body>
   );
 }
