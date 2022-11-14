@@ -12,7 +12,7 @@ import { faPager, faServer, } from '@fortawesome/free-solid-svg-icons';
 const MyportfolioDetails = () => {
     return (
         <container className='body'>
-            <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+            <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
             <header id='header'>
             <div className='d-flex flex-column'>
                 <div className='profile'>
@@ -25,12 +25,12 @@ const MyportfolioDetails = () => {
                     <a href="https://www.linkedin.com/in/abdul-rafiu-sanni-2626a8207/" className="linkedin" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a>
                     </div>
                 </div>
-                <nav id="navbar" class="nav-menu navbar">
+                <nav id="navbar" className="nav-menu navbar">
                     <ul>
                         <li><a href="#home" className="nav-link scrollto active"><FontAwesomeIcon icon={faHome} className="icon" /><span>Home</span></a></li>
                         <li><a href="#about" className="nav-link scrollto"><FontAwesomeIcon icon={faUser} className="icon" /> <span>About</span></a></li>
                         <li><a href="#resume" className="nav-link scrollto"><FontAwesomeIcon icon={faFile} className="icon" /><span>Resume</span></a></li>
-                        <li><a href="#portfolio" className="nav-link scrollto"><FontAwesomeIcon icon={faPager} className="icon" /><span>Portfolio</span></a></li>
+                        {/* <li><a href="#portfolio" className="nav-link scrollto"><FontAwesomeIcon icon={faPager} className="icon" /><span>Portfolio</span></a></li> */}
                         <li><a href="#services" className="nav-link scrollto"><FontAwesomeIcon icon={faServer} className="icon" /><span>Services</span></a></li>
                         <li><a href="#contact" className="nav-link scrollto"><FontAwesomeIcon icon={faEnvelope} className="icon" /><span>Contact</span></a></li>
                     </ul>

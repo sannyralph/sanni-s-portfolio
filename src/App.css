@@ -364,6 +364,7 @@ section {
 ul {
   margin-top: 0;
   margin-bottom: 1rem;
+  padding-left: 20px;
 }
 
 .fst-italic {
@@ -374,4 +375,70 @@ ul {
 #about-tittle {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+  padding-left: 5px;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  /* font-family: "Poppins", sans-serif; */
+  color: #050d18;
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: #91b8eb;
+  height: 10px;
+}
+.skills .progress-bar {
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
+}
+
+.skills-content {
+  display: flex;
+  text-align: start;
+  padding: 30px 10px 30px 350px;
+}
+
+.html-css-progress-bar {
+  width: 85%;
+}
+
+.css-progress-bar {
+  width: 70%;
+}
+
+.javascript-progress-bar {
+  width: 50%;
+}
+
+.react-css-progress-bar {
+  width: 80%;
+}
+
+.github-css-progress-bar {
+  width: 85%;
+}
+
+.nosql-css-progress-bar {
+  width: 55%;
+}
+
+p {
+ font-family: Fragment Mono;
+ font-size: large;
 }
