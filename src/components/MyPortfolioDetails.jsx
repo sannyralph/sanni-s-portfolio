@@ -5,14 +5,14 @@ import { faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-
 import img from '../images/profilePicture.jpeg';
 import { faEnvelope, faFile, faHome } from '@fortawesome/fontawesome-free-solid';
 import { faUser } from '@fortawesome/fontawesome-free-regular';
-import { faPager, faServer, } from '@fortawesome/free-solid-svg-icons';
+import { faServer } from '@fortawesome/free-solid-svg-icons';
 
 
 
 const MyportfolioDetails = () => {
     return (
         <container className='body'>
-            <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
+            <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
             <header id='header'>
             <div className='d-flex flex-column'>
                 <div className='profile'>
@@ -25,7 +25,7 @@ const MyportfolioDetails = () => {
                     <a href="https://www.linkedin.com/in/abdul-rafiu-sanni-2626a8207/" className="linkedin" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a>
                     </div>
                 </div>
-                <nav id="navbar" className="nav-menu navbar">
+                <nav id="navbar" class="nav-menu navbar">
                     <ul>
                         <li><a href="#home" className="nav-link scrollto active"><FontAwesomeIcon icon={faHome} className="icon" /><span>Home</span></a></li>
                         <li><a href="#about" className="nav-link scrollto"><FontAwesomeIcon icon={faUser} className="icon" /> <span>About</span></a></li>

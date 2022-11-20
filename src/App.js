@@ -2,6 +2,7 @@ import './App.css';
 import MyportfolioDetails from './components/MyPortfolioDetails';
 import MyHomePage from './components/MyHomePage';
 import MyAboutPage from './components/MyAboutPage';
+import ResumePage from './components/ResumePage';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <MyportfolioDetails/>
       <MyHomePage/>
       <MyAboutPage/>
+      <ResumePage/>
     </body>
   );
 }
