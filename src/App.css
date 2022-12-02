@@ -443,6 +443,14 @@ p {
  font-size: large;
 }
 
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
 #resume {
   padding: 30px 30px 30px 350px;
   text-align: start;
@@ -466,11 +474,11 @@ p {
 }
 .resume .resume-item h4 {
   line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #75a6eb;
   margin-bottom: 10px;
 }
 .resume .resume-item h5 {
@@ -505,4 +513,40 @@ p {
 .resume-career {
   display: flex;
 
+}
+
+.resume-skill {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.resume-skill-list ul{
+  list-style-type: none;
+  display: flex;
+  margin: 3px;
+  /* flex-flow: column wrap; */
+}
+
+.resume-skill-list li {
+  margin: 2px;
+  border: double;
+  border-radius: 7%;
+  background-color: #86b6f5;
+  color: white;
+  text-align: center;
+  padding: 3px;
+}
+
+.resume-skill-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.resume-item em {
+  margin-bottom: 10px;
+  font-weight: 600;
 }

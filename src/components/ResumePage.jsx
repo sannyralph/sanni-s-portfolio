@@ -58,9 +58,52 @@ const ResumePage = () => {
                         <li>prepared invoices, and payment receipts &amp; managed financial correspondence for clients and partners.</li>
                         <li>kept records of expenses and sales.</li>
                         <li>Was in charge of managing both accounts receivable &amp; payable.</li>
-                    </ul>
+                     </ul>
                     </div>
                 </div>
+                </div>
+                <div className="resume-skill container text-center">
+                    <div className="resume-skill-list container text-center">
+                        <h3 className="resume-skill-title">Tools &amp; Applications</h3>
+                        <ul className="row row-cols-auto">
+                            <li className="col">Ms Office</li>
+                            <li className="col">MangoDB</li>
+                            <li className="col">Asana</li>
+                        </ul>
+                        <ul>
+                            <li className="col">JiraSoftware</li>
+                            <li className="col">QuickBooks</li>
+                            <li className="col">MetaData</li>
+                        </ul>
+                        <ul>
+                            <li className="col">Github</li>
+                            <li className="col">Google</li>
+                            <li className="col">YouTube</li>
+                            <li className="col">Stack Overflow</li>
+                        </ul>
+                    </div>
+                    <div className="resume-skill-list">
+                        <h3 className="resume-skill-title">Hobbies &amp; Interest</h3>
+                        <ul className="col-4">
+                            <li>Gameing</li>
+                            <li>Learning</li>
+                            <li>Fashion</li>
+                            <li>Music</li>
+                        </ul>
+                        <ul>
+                            <li>Googling</li>
+                            <li>Documentation</li>
+                            <li>Innovation</li>
+                        </ul>
+                        <ul>
+                            <li>Photography</li>
+                            <li>Music</li>
+                            <li>Traveling</li>
+                            <li>Photography</li>
+                            
+                        
+                        </ul>
+                    </div>
                 </div>
 
             </div>
