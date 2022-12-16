@@ -1,10 +1,11 @@
+import { Container } from "react-bootstrap"
 import { Typewriter } from "react-simple-typewriter"
 // import img1 from '../images/homeBackgroundPic.jpg'
 
 const MyHomePage = () => {
     return (
 
-        <section className=" home d-flex flex-column justify-content-center align-items-center">
+        <Container className=" home d-flex flex-column justify-content-center align-items-center">
             <div className="home-container" data-aos="fade-in">
             <h1>Sanni Abdul Rafiu</h1>
             <p><span className="typed">
@@ -26,7 +27,7 @@ const MyHomePage = () => {
                 but most importantly, I've learned.
                 </p>
             </div>
-        </section>
+        </Container>
     )
 }
 

@@ -1,8 +1,9 @@
+import { Container } from "react-bootstrap"
 
 
 const ResumePage = () => {
     return (
-        <section id="resume" class="resume">
+        <Container id="resume" class="resume">
             <div class="container">
 
                 <div class="resume-header">
@@ -107,7 +108,7 @@ const ResumePage = () => {
                 </div>
 
             </div>
-        </section>
+        </Container>
     )
 }
 

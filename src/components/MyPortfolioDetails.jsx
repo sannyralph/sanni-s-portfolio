@@ -1,4 +1,4 @@
-import { } from 'react-bootstrap'
+import { Container} from 'react-bootstrap'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -11,7 +11,7 @@ import { faServer } from '@fortawesome/free-solid-svg-icons';
 
 const MyportfolioDetails = () => {
     return (
-        <container className='body'>
+        <Container className='body'>
             <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
             <header id='header'>
             <div className='d-flex flex-column'>
@@ -37,7 +37,7 @@ const MyportfolioDetails = () => {
                 </nav>
             </div>
         </header>
-        </container>
+        </Container>
     )
 } 
 
